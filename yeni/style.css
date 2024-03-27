@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#sayfa {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+#banner {
+  background-color: rgb(154, 179, 243);
+  padding: 10px;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+}
+
+#vesika {
+  max-width: 100px;
+  height: auto;
+  float: right;
+}
+
+#sosyal {
+  float: right;
+}
+
+#sosyal .ikon {
+  margin-left: 10px;
+  max-width: 30px;
+  height: auto;
+}
+
+#anamenu {
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#anamenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#anamenu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#anamenu ul li:last-child {
+  margin-right: 0;
+}
+
+#anamenu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#anamenu ul li a:hover {
+  color: gray;
+}
+
+#icerik {
+  width: calc(60% - 20px);
+  min-height: 400px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  float: left;
+}
+
+#icerik img {
+  max-width: 100%;
+  height: auto;
+}
+
+#yanmenu {
+  width: calc(40% - 20px);
+  min-height: 400px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  float: right;
+}
+
+#yanmenu .baslik {
+  margin-top: 0;
+}
+
+#yanmenu p {
+  margin-bottom: 10px;
+}
+
+#altmenu {
+  clear: both;
+  background-color: rgb(154, 179, 243);
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#altmenu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#altmenu a:hover {
+  text-decoration: underline;
+}
+
+.kucukmetin {
+  font-size: 10px;
+}
