@@ -9,15 +9,20 @@ body {
 }
 
 #sayfa {
-  width: 100%;
-  max-width: 800px;
+  width: 80%;
+  max-width: 70%;
   margin: auto;
   padding: 10px;
 }
 
 #banner {
-  background-color: rgb(154, 179, 243);
-  padding: 10px;
+  background: rgb(81, 174, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 174, 221, 1) 0%,
+    rgba(33, 102, 138, 1) 32%,
+    rgba(209, 238, 252, 1) 89%
+  );
   overflow: hidden;
 }
 
@@ -27,7 +32,7 @@ body {
 }
 
 #vesika {
-  max-width: 100px;
+  max-width: 150px;
   height: auto;
   float: right;
 }
@@ -37,9 +42,10 @@ body {
 }
 
 #sosyal .ikon {
-  margin-left: 10px;
+  margin-left: 1px;
   max-width: 30px;
-  height: auto;
+  margin-top: 110px;
+  display: flexbox;
 }
 
 #anamenu {
@@ -76,13 +82,14 @@ body {
 }
 
 #icerik {
-  width: calc(60% - 20px);
+  box-sizing: border-box;
+  float: left;
+  width: 60%;
   min-height: 400px;
   background-color: white;
   border: 1px solid black;
-  margin-top: 10px;
+  margin-right: 20px;
   padding: 10px;
-  float: left;
 }
 
 #icerik img {
@@ -91,13 +98,11 @@ body {
 }
 
 #yanmenu {
-  width: calc(40% - 20px);
-  min-height: 400px;
+  min-height: 492px;
   background-color: white;
   border: 1px solid black;
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 10px;
-  float: right;
 }
 
 #yanmenu .baslik {
@@ -110,7 +115,13 @@ body {
 
 #altmenu {
   clear: both;
-  background-color: rgb(154, 179, 243);
+  background: rgb(81, 174, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 174, 221, 1) 0%,
+    rgba(33, 102, 138, 1) 32%,
+    rgba(209, 238, 252, 1) 89%
+  );
   border: 1px solid black;
   margin-top: 10px;
   padding: 10px;
